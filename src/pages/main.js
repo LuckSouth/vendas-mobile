@@ -31,7 +31,11 @@ export default class Main extends Component {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("Pedidos");
+            }}
+          >
             <View style={styles.block}>
               <Text style={styles.texto}>Pedidos</Text>
               <Image

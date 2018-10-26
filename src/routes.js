@@ -2,11 +2,16 @@ import { createStackNavigator } from "react-navigation";
 
 import Main from "./pages/main";
 import Product from "./pages/product";
+import Pedidos from "./pages/pedidos";
+import Pesquisa from "./pages/pesquisa";
+// import Clientes from "./pages/product";
 
 export default createStackNavigator(
   {
     Main,
-    Product
+    Product,
+    Pedidos,
+    Pesquisa
   },
   {
     navigationOptions: {
