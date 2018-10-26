@@ -1,7 +1,7 @@
-import { StatusBar } from 'react-native';
+import { StatusBar } from "react-native";
 
 // android
-StatusBar.setBackgroundColor('#DA552F');
-
+StatusBar.setHidden(true);
 // ios
-StatusBar.setBarStyle('ligh-content');
+
+StatusBar.setHidden(true);
