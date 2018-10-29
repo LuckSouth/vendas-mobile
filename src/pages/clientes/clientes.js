@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet, FlatList } from "react-native";
-import { estilo } from "../config/estilo";
+import { estilo } from "../../config/estilo";
 
 export default class Product extends Component {
   static navigationOptions = {

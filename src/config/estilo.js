@@ -14,16 +14,58 @@ export const estilo = {
     borderColor: "#DDD",
     borderRadius: 5,
     padding: 5,
-    marginTop: 2,
-    marginLeft: 3,
-    marginRight: 3,
+    margin: 3,
     height: 70
+  },
+  cardPesquisa: {
+    backgroundColor: "#004f8b",
+    borderWidth: 1,
+    borderColor: "#DDD",
+    borderRadius: 5,
+    padding: 5,
+    margin: 3,
+    height: 70,
+    flexDirection: "column",
+    alignItems: "center"
+  },
+  cardProdutos: {
+    borderWidth: 1,
+    borderColor: "#DDD",
+    borderRadius: 5,
+    padding: 5,
+    margin: 3,
+    height: 100,
+    backgroundColor: "red"
+  },
+  rodapeCardProdutos: {
+    fontSize: 16,
+    fontWeight: "bold",
+    flexDirection: "row",
+    justifyContent: "space-between"
   },
   tituloCard: {
     fontSize: 19,
     fontWeight: "bold",
     color: "#2c3e50",
     paddingLeft: 7
+  },
+  tituloCardProdutros: {
+    fontSize: 16,
+    width: 300,
+    fontWeight: "bold",
+    paddingLeft: 7,
+    justifyContent: "center",
+    flexWrap: "wrap",
+    flexDirection: "row"
+  },
+  tituloPesquisa: {
+    fontSize: 20,
+    fontWeight: "bold",
+    paddingLeft: 7,
+    paddingTop: 15
+  },
+  pesquisa: {
+    paddingTop: 25
   },
   rodapeCard: {
     flex: 1,
@@ -49,5 +91,23 @@ export const estilo = {
     color: "#2c3e50",
     paddingLeft: 7,
     marginTop: 7
+  },
+  imagem: {
+    height: 50,
+    width: 50,
+    marginTop: 20
+  },
+  informacaoProdutos: {
+    position: "absolute",
+    fontSize: 15,
+    paddingLeft: 65,
+    paddingTop: 50
+  },
+  statusProdutos: {
+    position: "absolute",
+    fontSize: 15,
+    width: 320,
+    paddingLeft: 65,
+    paddingTop: 65
   }
 };

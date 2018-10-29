@@ -19,7 +19,7 @@ export default class Main extends Component {
         <View style={styles.geral}>
           <TouchableOpacity
             onPress={() => {
-              this.props.navigation.navigate("Product");
+              this.props.navigation.navigate("Clientes");
             }}
           >
             <View style={styles.block}>
@@ -47,17 +47,25 @@ export default class Main extends Component {
         </View>
 
         <View style={styles.geral}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("Pesquisa");
+            }}
+          >
             <View style={styles.block}>
               <Text style={styles.texto2}>Pesquisas</Text>
               <Image
                 style={styles.img}
-                source={require("../..//imgs/pesquisa.png")}
+                source={require("../../imgs/pesquisa.png")}
               />
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("Produtos");
+            }}
+          >
             <View style={styles.block}>
               <Text style={styles.texto3}>Produtos</Text>
               <Image
