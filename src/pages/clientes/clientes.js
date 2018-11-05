@@ -1,5 +1,11 @@
 import React, { Component } from "react";
-import { Text, View, StyleSheet, FlatList } from "react-native";
+import {
+  Text,
+  View,
+  StyleSheet,
+  FlatList,
+  TouchableOpacity
+} from "react-native";
 import { estilo } from "../../config/estilo";
 
 export default class Product extends Component {
@@ -10,13 +16,19 @@ export default class Product extends Component {
   render() {
     return (
       <View>
-        <View style={estilo.cardClientes}>
-          <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
-          <View style={estilo.rodapeCard}>
-            <Text style={estilo.statusClientes}>000.000.000-00</Text>
-            <Text style={estilo.statusClientes}>A010</Text>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate("createBottomTabNavigator");
+          }}
+        >
+          <View style={estilo.cardClientes}>
+            <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
+            <View style={estilo.rodapeCard}>
+              <Text style={estilo.statusClientes}>000.000.000-00</Text>
+              <Text style={estilo.statusClientes}>A010</Text>
+            </View>
           </View>
-        </View>
+        </TouchableOpacity>
 
         <View style={estilo.cardClientes}>
           <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
