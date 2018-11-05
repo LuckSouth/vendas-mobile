@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View, StyleSheet, FlatList, TextInput } from "react-native";
+import { Text, View, StyleSheet, FlatList } from "react-native";
 import { estilo } from "../../config/estilo";
 
 export default class Product extends Component {
@@ -10,9 +10,37 @@ export default class Product extends Component {
   render() {
     return (
       <View>
-        <TextInput
-          style={{ height: 40, borderColor: "gray", borderWidth: 1 }}
-        />
+        <View style={estilo.cardClientes}>
+          <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
+          <View style={estilo.rodapeCard}>
+            <Text style={estilo.statusClientes}>000.000.000-00</Text>
+            <Text style={estilo.statusClientes}>A010</Text>
+          </View>
+        </View>
+
+        <View style={estilo.cardClientes}>
+          <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
+          <View style={estilo.rodapeCard}>
+            <Text style={estilo.statusClientes}>000.000.000-00</Text>
+            <Text style={estilo.statusClientes}>A010</Text>
+          </View>
+        </View>
+
+        <View style={estilo.cardClientes}>
+          <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
+          <View style={estilo.rodapeCard}>
+            <Text style={estilo.statusClientes}>000.000.000-00</Text>
+            <Text style={estilo.statusClientes}>A010</Text>
+          </View>
+        </View>
+
+        <View style={estilo.cardClientes}>
+          <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
+          <View style={estilo.rodapeCard}>
+            <Text style={estilo.statusClientes}>000.000.000-00</Text>
+            <Text style={estilo.statusClientes}>A010</Text>
+          </View>
+        </View>
       </View>
     );
   }
