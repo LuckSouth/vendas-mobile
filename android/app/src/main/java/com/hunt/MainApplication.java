@@ -1,4 +1,4 @@
-package com.hunt;
+package com.vendas;
 
 import android.app.Application;
 

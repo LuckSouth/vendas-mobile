@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "hunt-tvOS.app"
-               BlueprintName = "hunt-tvOS"
-               ReferencedContainer = "container:hunt.xcodeproj">
+               BuildableName = "vendas-tvOS.app"
+               BlueprintName = "vendas-tvOS"
+               ReferencedContainer = "container:vendas.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "hunt-tvOSTests.xctest"
-               BlueprintName = "hunt-tvOSTests"
-               ReferencedContainer = "container:hunt.xcodeproj">
+               BuildableName = "vendas-tvOSTests.xctest"
+               BlueprintName = "vendas-tvOSTests"
+               ReferencedContainer = "container:vendas.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "hunt-tvOSTests.xctest"
-               BlueprintName = "hunt-tvOSTests"
-               ReferencedContainer = "container:hunt.xcodeproj">
+               BuildableName = "vendas-tvOSTests.xctest"
+               BlueprintName = "vendas-tvOSTests"
+               ReferencedContainer = "container:vendas.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "hunt-tvOS.app"
-            BlueprintName = "hunt-tvOS"
-            ReferencedContainer = "container:hunt.xcodeproj">
+            BuildableName = "vendas-tvOS.app"
+            BlueprintName = "vendas-tvOS"
+            ReferencedContainer = "container:vendas.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "hunt-tvOS.app"
-            BlueprintName = "hunt-tvOS"
-            ReferencedContainer = "container:hunt.xcodeproj">
+            BuildableName = "vendas-tvOS.app"
+            BlueprintName = "vendas-tvOS"
+            ReferencedContainer = "container:vendas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "hunt-tvOS.app"
-            BlueprintName = "hunt-tvOS"
-            ReferencedContainer = "container:hunt.xcodeproj">
+            BuildableName = "vendas-tvOS.app"
+            BlueprintName = "vendas-tvOS"
+            ReferencedContainer = "container:vendas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

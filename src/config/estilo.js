@@ -34,8 +34,7 @@ export const estilo = {
     borderRadius: 5,
     padding: 5,
     margin: 3,
-    height: 100,
-    backgroundColor: "red"
+    height: 100
   },
   rodapeCardProdutos: {
     fontSize: 16,
