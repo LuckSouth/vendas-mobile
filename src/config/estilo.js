@@ -84,6 +84,7 @@ export const estilo = {
     color: "#2c3e50",
     paddingLeft: 7
   },
+
   statusClientes: {
     fontSize: 16,
     fontWeight: "bold",
@@ -108,5 +109,36 @@ export const estilo = {
     width: 320,
     paddingLeft: 65,
     paddingTop: 65
+  },
+
+  // Início Estilo dos detalhes dos Clientes
+  detalheCliente: {
+    flex: 1,
+    backgroundColor: "white"
+  },
+
+  detalheClienteCard: {
+    backgroundColor: "#FFF",
+    borderWidth: 1,
+    flexDirection: "row",
+    borderColor: "#DDD",
+    borderRadius: 5,
+    padding: 5,
+    margin: 1
+  },
+
+  detalheClienteInput: {
+    color: "#306B98",
+    fontSize: 17
+  },
+
+  detalheClienteText: {
+    fontSize: 17,
+    marginLeft: 7
+  },
+  // Fim Estilo dos detalhes dos Clientes
+
+  iconBla: {
+    alignSelf: "flex-end"
   }
 };
