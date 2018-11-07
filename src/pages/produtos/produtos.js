@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, Image } from "react-native";
-import { estilo } from "../../config/estilo";
+import { estilo } from "../produtos/produtos.css";
 
 export default class Produtos extends Component {
   static navigationOptions = {
@@ -11,7 +11,7 @@ export default class Produtos extends Component {
     const {
       cardProdutos,
       informacaoProdutos,
-      tituloCardProdutros,
+      tituloCardProdutos,
       rodapeCardProdutos,
       imagem,
       statusProdutos
@@ -24,7 +24,7 @@ export default class Produtos extends Component {
               style={imagem}
               source={require("../../../imgs/galinha.png")}
             />
-            <Text style={tituloCardProdutros}>
+            <Text style={tituloCardProdutos}>
               011 - OVO SUPER EXTRA INDUSTRIAL C/30
             </Text>
           </View>
@@ -36,7 +36,7 @@ export default class Produtos extends Component {
             style={estilo.imagem}
             source={require("../../../imgs/galinha.png")}
           />
-          <Text style={estilo.tituloCardProdutros}>
+          <Text style={estilo.tituloCardProdutos}>
             011 - OVO SUPER EXTRA GRANDE VERMELHO C/30
           </Text>
           <Text style={estilo.informacaoCentro}>R$ 10,26 </Text>
@@ -50,7 +50,7 @@ export default class Produtos extends Component {
             style={estilo.imagem}
             source={require("../../../imgs/galinha.png")}
           />
-          <Text style={estilo.tituloCardProdutros}>
+          <Text style={estilo.tituloCardProdutos}>
             011 - OVO SUPER EXTRA MEDIO BRANCO C/30
           </Text>
           <Text style={estilo.informacaoCentro}>R$ 10,26 </Text>
@@ -64,7 +64,7 @@ export default class Produtos extends Component {
             style={estilo.imagem}
             source={require("../../../imgs/galinha.png")}
           />
-          <Text style={estilo.tituloCardProdutros}>
+          <Text style={estilo.tituloCardProdutos}>
             011 - OVO SUPER EXTRA PEQUENO BRANCO C/30
           </Text>
           <Text style={estilo.informacaoCentro}>R$ 10,26 </Text>
@@ -78,7 +78,7 @@ export default class Produtos extends Component {
             style={estilo.imagem}
             source={require("../../../imgs/galinha.png")}
           />
-          <Text style={estilo.tituloCardProdutros}>
+          <Text style={estilo.tituloCardProdutos}>
             011 - OVO SUPER INDUSTRIAL GRANDE BRANCO C/30
           </Text>
           <Text style={estilo.informacaoCentro}>R$ 10,26 </Text>

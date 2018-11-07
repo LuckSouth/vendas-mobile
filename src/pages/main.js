@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { estilo } from "./main.css";
 import {
   View,
   Text,
@@ -15,17 +16,17 @@ export default class Main extends Component {
 
   render() {
     return (
-      <View style={styles.page}>
-        <View style={styles.geral}>
+      <View style={estilo.page}>
+        <View style={estilo.geral}>
           <TouchableOpacity
             onPress={() => {
               this.props.navigation.navigate("Clientes");
             }}
           >
-            <View style={styles.block}>
-              <Text style={styles.texto}>Clientes</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto}>Clientes</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/cliente.png")}
               />
             </View>
@@ -36,26 +37,26 @@ export default class Main extends Component {
               this.props.navigation.navigate("Pedidos");
             }}
           >
-            <View style={styles.block}>
-              <Text style={styles.texto}>Pedidos</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto}>Pedidos</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/pedidos.png")}
               />
             </View>
           </TouchableOpacity>
         </View>
 
-        <View style={styles.geral}>
+        <View style={estilo.geral}>
           <TouchableOpacity
             onPress={() => {
               this.props.navigation.navigate("Pesquisa");
             }}
           >
-            <View style={styles.block}>
-              <Text style={styles.texto2}>Pesquisas</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto2}>Pesquisas</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/pesquisa.png")}
               />
             </View>
@@ -66,32 +67,32 @@ export default class Main extends Component {
               this.props.navigation.navigate("Produtos");
             }}
           >
-            <View style={styles.block}>
-              <Text style={styles.texto3}>Produtos</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto3}>Produtos</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/produto.png")}
               />
             </View>
           </TouchableOpacity>
         </View>
 
-        <View style={styles.geral}>
+        <View style={estilo.geral}>
           <TouchableOpacity>
-            <View style={styles.block}>
-              <Text style={styles.texto2}>Sincronizar</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto2}>Sincronizar</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/sincronizar.png")}
               />
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity>
-            <View style={styles.block}>
-              <Text style={styles.texto}>Tabelas</Text>
+            <View style={estilo.block}>
+              <Text style={estilo.texto}>Tabelas</Text>
               <Image
-                style={styles.img}
+                style={estilo.img}
                 source={require("../../imgs/tabela.png")}
               />
             </View>
@@ -101,52 +102,3 @@ export default class Main extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  block: {
-    backgroundColor: "#004f8b",
-    height: 150,
-    width: 170,
-    borderRadius: 5,
-    marginRight: 6,
-    padding: 50,
-    paddingTop: 10
-  },
-  page: {},
-  geral: {
-    marginLeft: 6,
-    flexDirection: "row",
-    paddingTop: 10,
-    justifyContent: "space-between"
-  },
-  img: {
-    height: 80,
-    width: 80,
-    marginTop: 5,
-    paddingLeft: -4
-  },
-  texto: {
-    fontSize: 24,
-    height: 40,
-    width: 170,
-    marginLeft: -5,
-    color: "#fff",
-    zIndex: 1
-  },
-  texto2: {
-    fontSize: 24,
-    height: 40,
-    width: 170,
-    marginLeft: -21,
-    color: "#fff",
-    zIndex: 1
-  },
-  texto3: {
-    fontSize: 24,
-    height: 40,
-    width: 170,
-    marginLeft: -10,
-    color: "#fff",
-    zIndex: 1
-  }
-});

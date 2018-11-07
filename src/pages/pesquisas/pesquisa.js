@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   Button
 } from "react-native";
-import { estilo } from "../../config/estilo";
+import { estilo } from "./pesquisa.css";
 
 export default class Pesquisa extends Component {
   static navigationOptions = {

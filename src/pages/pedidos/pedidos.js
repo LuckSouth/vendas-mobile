@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet, FlatList } from "react-native";
-import { estilo } from "../../config/estilo";
+import { estilo } from "../pedidos/pedidos.css";
 
 export default class Pedidos extends Component {
   static navigationOptions = {

@@ -6,7 +6,7 @@ import {
   FlatList,
   TouchableOpacity
 } from "react-native";
-import { estilo } from "../../config/estilo";
+import { estilo } from "./clientes.css";
 import { Icon } from "react-native-elements";
 
 export default class Product extends Component {

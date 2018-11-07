@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View } from "react-native";
 import { createBottomTabNavigator } from "react-navigation";
-import { estilo } from "../../config/estilo";
+import { estilo } from "./detalhe-cliente.css";
 
 class Informaoes extends React.Component {
   render() {
