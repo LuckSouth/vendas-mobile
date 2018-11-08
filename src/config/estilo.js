@@ -138,7 +138,9 @@ export const estilo = {
   },
   // Fim Estilo dos detalhes dos Clientes
 
-  iconBla: {
-    alignSelf: "flex-end"
+  icon: {
+    position: "absolute",
+    marginLeft: 312,
+    marginTop: -28
   }
 };

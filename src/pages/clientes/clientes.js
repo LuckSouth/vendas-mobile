@@ -4,7 +4,8 @@ import {
   View,
   StyleSheet,
   FlatList,
-  TouchableOpacity
+  TouchableOpacity,
+  Button
 } from "react-native";
 import { estilo } from "../../config/estilo";
 import { Icon } from "react-native-elements";
@@ -21,17 +22,16 @@ export default class Product extends Component {
           <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
           <View style={estilo.rodapeCard}>
             <Text style={estilo.statusClientes}>000.000.000-00</Text>
-            <Icon
-              style={estilo.iconBla}
-              raised
-              name="heartbeat"
-              type="font-awesome"
-              color="red"
-              onPress={() =>
-                this.props.navigation.navigate("createBottomTabNavigator")
-              }
-            />
-
+            <View style={estilo.icon}>
+              <Icon
+                name="add"
+                size={30}
+                color="#32CD32"
+                onPress={() =>
+                  this.props.navigation.navigate("createBottomTabNavigator")
+                }
+              />
+            </View>
             <Text style={estilo.statusClientes}>A010</Text>
           </View>
         </View>
@@ -40,15 +40,16 @@ export default class Product extends Component {
           <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
           <View style={estilo.rodapeCard}>
             <Text style={estilo.statusClientes}>000.000.000-00</Text>
-            <Icon
-              raised
-              name="heartbeat"
-              type="font-awesome"
-              color="red"
-              onPress={() =>
-                this.props.navigation.navigate("createBottomTabNavigator")
-              }
-            />
+            <View style={estilo.icon}>
+              <Icon
+                name="add"
+                size={30}
+                color="#32CD32"
+                onPress={() =>
+                  this.props.navigation.navigate("createBottomTabNavigator")
+                }
+              />
+            </View>
             <Text style={estilo.statusClientes}>A010</Text>
           </View>
         </View>
@@ -57,15 +58,16 @@ export default class Product extends Component {
           <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
           <View style={estilo.rodapeCard}>
             <Text style={estilo.statusClientes}>000.000.000-00</Text>
-            <Icon
-              raised
-              name="heartbeat"
-              type="font-awesome"
-              color="red"
-              onPress={() =>
-                this.props.navigation.navigate("createBottomTabNavigator")
-              }
-            />
+            <View style={estilo.icon}>
+              <Icon
+                name="add"
+                size={30}
+                color="#32CD32"
+                onPress={() =>
+                  this.props.navigation.navigate("createBottomTabNavigator")
+                }
+              />
+            </View>
             <Text style={estilo.statusClientes}>A010</Text>
           </View>
         </View>
@@ -74,15 +76,16 @@ export default class Product extends Component {
           <Text style={estilo.tituloCard}>VANDOCELIO SILVA</Text>
           <View style={estilo.rodapeCard}>
             <Text style={estilo.statusClientes}>000.000.000-00</Text>
-            <Icon
-              raised
-              name="heartbeat"
-              type="font-awesome"
-              color="red"
-              onPress={() =>
-                this.props.navigation.navigate("createBottomTabNavigator")
-              }
-            />
+            <View style={estilo.icon}>
+              <Icon
+                name="add"
+                size={30}
+                color="#32CD32"
+                onPress={() =>
+                  this.props.navigation.navigate("createBottomTabNavigator")
+                }
+              />
+            </View>
             <Text style={estilo.statusClientes}>A010</Text>
           </View>
         </View>

@@ -2,8 +2,9 @@ import React from "react";
 import { Text, View } from "react-native";
 import { createBottomTabNavigator } from "react-navigation";
 import { estilo } from "../../config/estilo";
+import Icon from "react-native-vector-icons/FontAwesome";
 
-class Informaoes extends React.Component {
+class Informacoes extends React.Component {
   render() {
     return (
       <View style={estilo.detalheCliente}>
@@ -99,7 +100,37 @@ class Financeiro extends React.Component {
   }
 }
 
-export default createBottomTabNavigator({
-  Informações: Informaoes,
-  Financeiro: Financeiro
-});
+export default createBottomTabNavigator(
+  {
+    Informacoes: {
+      screen: Informacoes,
+
+      navigationOptions: {
+        tabBarLabel: "Informações",
+        tabBarIcon: ({ tintColor }) => (
+          <Icon name="info-circle" size={30} color="#306B98" />
+        )
+      }
+    },
+    Financeiro: {
+      screen: Financeiro,
+      navigationOptions: {
+        tabBarLabel: "Financeiro",
+        tabBarIcon: ({ tintColor }) => (
+          <Icon name="money" size={30} color="#306B98" />
+        )
+      }
+    }
+  },
+
+  {
+    order: ["Informacoes", "Financeiro"],
+    tabBarOptions: {
+      activeTintColor: "#D4AF37",
+      inactiveTintColor: "gray",
+      style: {
+        backgroundColor: "white"
+      }
+    }
+  }
+);
