@@ -1,8 +1,10 @@
 import React from "react";
 import { Text, View } from "react-native";
 import { createBottomTabNavigator } from "react-navigation";
-import { estilo } from "../../config/estilo";
+
 import Icon from "react-native-vector-icons/FontAwesome";
+
+import { estilo } from "./detalhe-cliente.css";
 
 class Informacoes extends React.Component {
   render() {

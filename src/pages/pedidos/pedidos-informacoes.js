@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Text, View, Image } from "react-native";
 import { estilo } from "../produtos/produtos.css";
 
-export default class Produtos extends Component {
+export default class PedidosInformacoes extends Component {
   static navigationOptions = {
-    title: "Produtos"
+    title: "Detalhes"
   };
 
   render() {
@@ -24,10 +24,12 @@ export default class Produtos extends Component {
               style={imagem}
               source={require("../../../imgs/galinha.png")}
             />
-            <Text style={tituloCardProdutos}>057 - Cajuína 500 ml</Text>
+            <Text style={tituloCardProdutos}>
+              A22 - Frango congelado 1.7 Encaixado
+            </Text>
           </View>
-          <Text style={informacaoProdutos}>R$ 2,26 </Text>
-          <Text style={statusProdutos}>500 ml</Text>
+          <Text style={informacaoProdutos}>R$ 5,14 </Text>
+          <Text style={statusProdutos}>100 kg</Text>
         </View>
 
         <View style={cardProdutos}>
@@ -36,10 +38,10 @@ export default class Produtos extends Component {
               style={imagem}
               source={require("../../../imgs/galinha.png")}
             />
-            <Text style={tituloCardProdutos}>385 - Frango</Text>
+            <Text style={tituloCardProdutos}>A22 - Ovo industrial 6</Text>
           </View>
-          <Text style={informacaoProdutos}>R$ 5,47 </Text>
-          <Text style={statusProdutos}>10 Kg</Text>
+          <Text style={informacaoProdutos}>R$ 8,15 </Text>
+          <Text style={statusProdutos}>330 BD</Text>
         </View>
 
         <View style={cardProdutos}>
@@ -54,6 +56,18 @@ export default class Produtos extends Component {
           </View>
           <Text style={informacaoProdutos}>R$ 10,26 </Text>
           <Text style={statusProdutos}>0 BD</Text>
+        </View>
+
+        <View style={cardProdutos}>
+          <View style={rodapeCardProdutos}>
+            <Image
+              style={imagem}
+              source={require("../../../imgs/galinha.png")}
+            />
+            <Text style={tituloCardProdutos}>A26 - Ovo branco grande 7</Text>
+          </View>
+          <Text style={informacaoProdutos}>R$ 5,52 </Text>
+          <Text style={statusProdutos}>500 BD</Text>
         </View>
       </View>
     );

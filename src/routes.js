@@ -6,6 +6,7 @@ import Pedidos from "./pages/pedidos/pedidos";
 import Pesquisa from "./pages/pesquisas/pesquisa";
 import Produtos from "./pages/produtos/produtos";
 import createBottomTabNavigator from "./pages/clientes/detalhe-cliente";
+import PedidosInformacoes from "./pages/pedidos/pedidos-informacoes";
 
 export default createStackNavigator(
   {
@@ -14,7 +15,8 @@ export default createStackNavigator(
     Pedidos,
     Pesquisa,
     Produtos,
-    createBottomTabNavigator
+    createBottomTabNavigator,
+    PedidosInformacoes
   },
   {
     navigationOptions: {
