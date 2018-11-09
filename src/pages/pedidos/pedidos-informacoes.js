@@ -20,10 +20,7 @@ export default class PedidosInformacoes extends Component {
       <View>
         <View style={cardProdutos}>
           <View style={rodapeCardProdutos}>
-            <Image
-              style={imagem}
-              source={require("../../../imgs/galinha.png")}
-            />
+            <Image style={imagem} source={require("../../../imgs/meat.png")} />
             <Text style={tituloCardProdutos}>
               A22 - Frango congelado 1.7 Encaixado
             </Text>
@@ -36,7 +33,7 @@ export default class PedidosInformacoes extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/egg-carton.png")}
             />
             <Text style={tituloCardProdutos}>A22 - Ovo industrial 6</Text>
           </View>
@@ -48,7 +45,7 @@ export default class PedidosInformacoes extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/egg-carton.png")}
             />
             <Text style={tituloCardProdutos}>
               011 - OVO SUPER EXTRA INDUSTRIAL C/30
@@ -62,7 +59,7 @@ export default class PedidosInformacoes extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/egg-carton.png")}
             />
             <Text style={tituloCardProdutos}>A26 - Ovo branco grande 7</Text>
           </View>

@@ -17,18 +17,42 @@ export default class Pesquisa extends Component {
   render() {
     return (
       <View style={estilo.pesquisa}>
-        <View style={estilo.cardPesquisa}>
-          <Text style={estilo.tituloPesquisa}>OVOS</Text>
-        </View>
-        <View style={estilo.cardPesquisa}>
-          <Text style={estilo.tituloPesquisa}>FRANGO</Text>
-        </View>
-        <View style={estilo.cardPesquisa}>
-          <Text style={estilo.tituloPesquisa}>QUEIJO</Text>
-        </View>
-        <View style={estilo.cardPesquisa}>
-          <Text style={estilo.tituloPesquisa}>GALINHA</Text>
-        </View>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate("SubPesquisa");
+          }}
+        >
+          <View style={estilo.cardPesquisa}>
+            <Text style={estilo.tituloPesquisa}>OVOS</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate("Clientes");
+          }}
+        >
+          <View style={estilo.cardPesquisa}>
+            <Text style={estilo.tituloPesquisa}>FRANGO</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate("Clientes");
+          }}
+        >
+          <View style={estilo.cardPesquisa}>
+            <Text style={estilo.tituloPesquisa}>QUEIJO</Text>
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity
+          onPress={() => {
+            this.props.navigation.navigate("Clientes");
+          }}
+        >
+          <View style={estilo.cardPesquisa}>
+            <Text style={estilo.tituloPesquisa}>GALINHA</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }

@@ -22,7 +22,7 @@ export default class Produtos extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/soda.png")}
             />
             <Text style={tituloCardProdutos}>057 - Cajuína 500 ml</Text>
           </View>
@@ -34,7 +34,7 @@ export default class Produtos extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/chicken.png")}
             />
             <Text style={tituloCardProdutos}>385 - Frango</Text>
           </View>
@@ -46,7 +46,7 @@ export default class Produtos extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/galinha.png")}
+              source={require("../../../imgs/egg-carton.png")}
             />
             <Text style={tituloCardProdutos}>
               011 - OVO SUPER EXTRA INDUSTRIAL C/30
