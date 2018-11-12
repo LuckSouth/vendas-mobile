@@ -8,6 +8,9 @@ import Produtos from "./pages/produtos/produtos";
 import createBottomTabNavigator from "./pages/clientes/detalhe-cliente";
 import PedidosInformacoes from "./pages/pedidos/pedidos-informacoes";
 import SubPesquisa from "./pages/pesquisas/sub-pesquisa";
+import SubPesquisaProdutos from "./pages/pesquisas/sub-pesquisa-produtos";
+import SubPesquisaInformacoes from "./pages/pesquisas/sub-pesquisa-informacoes";
+import ClientesAdicionarVenda from "./pages/clientes/clientes-adicionar-venda";
 
 export default createStackNavigator(
   {
@@ -18,7 +21,10 @@ export default createStackNavigator(
     Produtos,
     createBottomTabNavigator,
     PedidosInformacoes,
-    SubPesquisa
+    SubPesquisa,
+    SubPesquisaProdutos,
+    SubPesquisaInformacoes,
+    ClientesAdicionarVenda
   },
   {
     navigationOptions: {

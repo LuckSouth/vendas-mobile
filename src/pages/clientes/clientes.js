@@ -28,7 +28,7 @@ export default class Product extends Component {
                 size={30}
                 color="#32CD32"
                 onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
+                  this.props.navigation.navigate("ClientesAdicionarVenda")
                 }
               />
             </View>
@@ -46,7 +46,7 @@ export default class Product extends Component {
                 size={30}
                 color="#32CD32"
                 onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
+                  this.props.navigation.navigate("ClientesAdicionarVenda")
                 }
               />
             </View>
@@ -64,7 +64,7 @@ export default class Product extends Component {
                 size={30}
                 color="#32CD32"
                 onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
+                  this.props.navigation.navigate("ClientesAdicionarVenda")
                 }
               />
             </View>
@@ -82,7 +82,7 @@ export default class Product extends Component {
                 size={30}
                 color="#32CD32"
                 onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
+                  this.props.navigation.navigate("ClientesAdicionarVenda")
                 }
               />
             </View>
