@@ -3464,6 +3464,11 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
+install@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/install/-/install-0.12.2.tgz#ea10e9b2cbb5b0484f25080b24b5b34429d9f564"
+  integrity sha512-+7thTb4Rpvs9mnlhHKGZFJbGOO6kyMgy+gg0sgM5vFzIFK0wrCYXqdlaM71Bi289DTuPHf61puMFsaZBcwDIrg==
+
 invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -5655,7 +5660,7 @@ react-native-ionicons@^4.4.6:
   resolved "https://registry.yarnpkg.com/react-native-ionicons/-/react-native-ionicons-4.4.6.tgz#e98d7edb74dadd49c49adab5b0a393a687197e0c"
   integrity sha512-UcZhenuo0W1MSgH8dr8FBFvAkHEkarQWWG4saNOYJAWfXqqYfKfk9WIcYfrMHDI1sfCpa7+AmW1V6spUnOmewg==
 
-"react-native-maps@github:expo/react-native-maps#v0.22.0-exp.0":
+react-native-maps@expo/react-native-maps#v0.22.0-exp.0:
   version "0.22.0"
   resolved "https://codeload.github.com/expo/react-native-maps/tar.gz/cb9d9ec23d4d176bddd6d465a583462f9c1056a0"
   dependencies:

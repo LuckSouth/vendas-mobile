@@ -24,7 +24,7 @@ export default class SubPesquisa extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("createBottomTabNavigator")
+                    this.props.navigation.navigate("DetalheCliente")
                   }
                 />
               </View>
@@ -43,9 +43,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>
@@ -61,9 +59,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>
@@ -79,9 +75,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>
@@ -97,9 +91,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>
@@ -115,9 +107,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>
@@ -133,9 +123,7 @@ export default class SubPesquisa extends Component {
                 name="check"
                 size={30}
                 color="#32CD32"
-                onPress={() =>
-                  this.props.navigation.navigate("createBottomTabNavigator")
-                }
+                onPress={() => this.props.navigation.navigate("DetalheCliente")}
               />
             </View>
           </View>

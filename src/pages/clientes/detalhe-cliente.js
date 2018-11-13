@@ -2,7 +2,7 @@ import React from "react";
 import { Text, View } from "react-native";
 import { createBottomTabNavigator } from "react-navigation";
 
-import Icon from "react-native-vector-icons/FontAwesome";
+import Icon from "react-native-vector-icons/MaterialIcons";
 
 import { estilo } from "./detalhe-cliente.css";
 
@@ -110,7 +110,7 @@ export default createBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Informações",
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="info-circle" size={30} color="#306B98" />
+          <Icon name="info-outline" size={30} color="#306B98" />
         )
       }
     },
@@ -119,7 +119,7 @@ export default createBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Financeiro",
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="money" size={30} color="#306B98" />
+          <Icon name="attach-money" size={30} color="#306B98" />
         )
       }
     }
@@ -128,7 +128,7 @@ export default createBottomTabNavigator(
   {
     order: ["Informacoes", "Financeiro"],
     tabBarOptions: {
-      activeTintColor: "#D4AF37",
+      activeTintColor: "#004f8b",
       inactiveTintColor: "gray",
       style: {
         backgroundColor: "white"

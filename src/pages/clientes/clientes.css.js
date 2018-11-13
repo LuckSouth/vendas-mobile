@@ -10,8 +10,11 @@ export const estilo = {
   },
   icon: {
     position: "absolute",
-    marginLeft: 312,
-    marginTop: -28
+    marginLeft: 290,
+    marginTop: -30,
+    height: 67,
+    width: 65,
+    backgroundColor: "transparent"
   },
   rodapeCard: {
     flex: 1,

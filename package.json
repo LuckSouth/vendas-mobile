@@ -9,6 +9,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "expo": "^31.0.4",
+    "install": "^0.12.2",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.3",
     "react-native-elements": "^0.19.1",
