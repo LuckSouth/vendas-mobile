@@ -15,6 +15,14 @@ export const estilo = {
     paddingLeft: 7,
     marginTop: 7
   },
+  icon: {
+    position: "absolute",
+    marginLeft: 290,
+    marginTop: -50,
+    height: 67,
+    width: 65,
+    backgroundColor: "transparent"
+  },
   rodapeCard: {
     flex: 1,
     flexDirection: "row",

@@ -16,6 +16,16 @@ export const estilo = {
     width: 65,
     backgroundColor: "transparent"
   },
+
+  iconPedido: {
+    position: "absolute",
+    marginLeft: 290,
+    marginTop: -30,
+    height: 67,
+    width: 65,
+    backgroundColor: "red"
+  },
+
   rodapeCard: {
     flex: 1,
     flexDirection: "row",

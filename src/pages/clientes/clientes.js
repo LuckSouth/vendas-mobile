@@ -33,7 +33,7 @@ export default class Product extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("IncluirPedido")
                   }
                 />
               </View>
@@ -57,7 +57,7 @@ export default class Product extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("IncluirPedido")
                   }
                 />
               </View>
@@ -81,7 +81,7 @@ export default class Product extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("IncluirPedido")
                   }
                 />
               </View>
@@ -105,7 +105,7 @@ export default class Product extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("IncluirPedido")
                   }
                 />
               </View>
@@ -129,7 +129,7 @@ export default class Product extends Component {
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("IncluirPedido")
                   }
                 />
               </View>

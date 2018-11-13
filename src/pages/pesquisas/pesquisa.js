@@ -28,7 +28,7 @@ export default class Pesquisa extends Component {
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => {
-            this.props.navigation.navigate("Clientes");
+            this.props.navigation.navigate("SubPesquisa");
           }}
         >
           <View style={estilo.cardPesquisa}>
@@ -37,7 +37,7 @@ export default class Pesquisa extends Component {
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => {
-            this.props.navigation.navigate("Clientes");
+            this.props.navigation.navigate("SubPesquisa");
           }}
         >
           <View style={estilo.cardPesquisa}>
@@ -46,7 +46,7 @@ export default class Pesquisa extends Component {
         </TouchableOpacity>
         <TouchableOpacity
           onPress={() => {
-            this.props.navigation.navigate("Clientes");
+            this.props.navigation.navigate("SubPesquisa");
           }}
         >
           <View style={estilo.cardPesquisa}>

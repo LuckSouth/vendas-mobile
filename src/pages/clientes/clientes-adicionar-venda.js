@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Text, View, TouchableOpacity } from "react-native";
+import { Text, View, TouchableOpacity, Image } from "react-native";
 import { estilo } from "./clientes-adicionar-venda.css";
 
 export default class ClientesAdicionarVenda extends Component {
@@ -17,11 +17,11 @@ export default class ClientesAdicionarVenda extends Component {
             }}
           >
             <View style={estilo.block}>
-              <Text style={estilo.texto}>Clientes</Text>
-              {/* <Image
+              <Text style={estilo.texto}>Ovos</Text>
+              <Image
                 style={estilo.img}
-                source={require("../../imgs/cliente.png")}
-              /> */}
+                source={require("../../../imgs/egg-white.png")}
+              />
             </View>
           </TouchableOpacity>
 
@@ -31,11 +31,11 @@ export default class ClientesAdicionarVenda extends Component {
             }}
           >
             <View style={estilo.block}>
-              <Text style={estilo.texto}>Pedidos</Text>
-              {/* <Image
+              <Text style={estilo.texto}>Galinha</Text>
+              <Image
                 style={estilo.img}
-                source={require("../../imgs/pedidos.png")}
-              /> */}
+                source={require("../../../imgs/chicken-white.png")}
+              />
             </View>
           </TouchableOpacity>
         </View>
@@ -47,11 +47,11 @@ export default class ClientesAdicionarVenda extends Component {
             }}
           >
             <View style={estilo.block}>
-              <Text style={estilo.texto2}>Pesquisas</Text>
-              {/* <Image
+              <Text style={estilo.texto2}>Queijo</Text>
+              <Image
                 style={estilo.img}
-                source={require("../../imgs/pesquisa.png")}
-              /> */}
+                source={require("../../../imgs/cheese-white.png")}
+              />
             </View>
           </TouchableOpacity>
 
@@ -61,33 +61,11 @@ export default class ClientesAdicionarVenda extends Component {
             }}
           >
             <View style={estilo.block}>
-              <Text style={estilo.texto3}>Produtos</Text>
-              {/* <Image
+              <Text style={estilo.texto3}>Cajuína</Text>
+              <Image
                 style={estilo.img}
-                source={require("../../imgs/produto.png")}
-              /> */}
-            </View>
-          </TouchableOpacity>
-        </View>
-
-        <View style={estilo.geral}>
-          <TouchableOpacity>
-            <View style={estilo.block}>
-              <Text style={estilo.texto2}>Sincronizar</Text>
-              {/* <Image
-                style={estilo.img}
-                source={require("../../imgs/sincronizar.png")}
-              /> */}
-            </View>
-          </TouchableOpacity>
-
-          <TouchableOpacity>
-            <View style={estilo.block}>
-              <Text style={estilo.texto}>Tabelas</Text>
-              {/* <Image
-                style={estilo.img}
-                source={require("../../imgs/tabela.png")}
-              /> */}
+                source={require("../../../imgs/can-white.png")}
+              />
             </View>
           </TouchableOpacity>
         </View>

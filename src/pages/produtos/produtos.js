@@ -22,7 +22,7 @@ export default class Produtos extends Component {
           <View style={rodapeCardProdutos}>
             <Image
               style={imagem}
-              source={require("../../../imgs/soda.png")}
+              source={require("../../../imgs/can.png")}
             />
             <Text style={tituloCardProdutos}>057 - Cajuína 500 ml</Text>
           </View>

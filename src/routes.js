@@ -11,6 +11,7 @@ import SubPesquisa from "./pages/pesquisas/sub-pesquisa";
 import SubPesquisaProdutos from "./pages/pesquisas/sub-pesquisa-produtos";
 import SubPesquisaInformacoes from "./pages/pesquisas/sub-pesquisa-informacoes";
 import ClientesAdicionarVenda from "./pages/clientes/clientes-adicionar-venda";
+import createBottomTabNavigator from "./pages/clientes/incluir-predido";
 
 export default createStackNavigator(
   {
@@ -24,7 +25,8 @@ export default createStackNavigator(
     SubPesquisa,
     SubPesquisaProdutos,
     SubPesquisaInformacoes,
-    ClientesAdicionarVenda
+    ClientesAdicionarVenda,
+    createBottomTabNavigator
   },
   {
     navigationOptions: {
