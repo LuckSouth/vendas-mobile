@@ -9,52 +9,52 @@ import { estilo } from "./incluir-pedido.css";
 class IncluirPedido extends React.Component {
   render() {
     return (
-      <View style={estilo.detalhePedido}>
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Nº Pedido:</Text>
-          <Text style={estilo.detalhePedidoText}>442663</Text>
+      <View style={estilo.incluirPedido}>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Nº Pedido:</Text>
+          <Text style={estilo.incluirPedidoText}>442663</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Data:</Text>
-          <Text style={estilo.detalhePedidoText}>13/11/2018</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Data:</Text>
+          <Text style={estilo.incluirPedidoText}>13/11/2018</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Cliente:</Text>
-          <Text style={estilo.detalhePedidoText}>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Cliente:</Text>
+          <Text style={estilo.incluirPedidoText}>
             Anario Barroso de Menezes Filho
           </Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Limite de Crédito:</Text>
-          <Text style={estilo.detalhePedidoText}>R$ 1.000,00</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Limite de Crédito:</Text>
+          <Text style={estilo.incluirPedidoText}>R$ 1.000,00</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Saldo:</Text>
-          <Text style={estilo.detalhePedidoText}>R$ 1.000,00</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Saldo:</Text>
+          <Text style={estilo.incluirPedidoText}>R$ 1.000,00</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Categoria:</Text>
-          <Text style={estilo.detalhePedidoText}>1</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Categoria:</Text>
+          <Text style={estilo.incluirPedidoText}>1</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Quantidade Itens:</Text>
-          <Text style={estilo.detalhePedidoText}>0</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Quantidade Itens:</Text>
+          <Text style={estilo.incluirPedidoText}>0</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Valor Total:</Text>
-          <Text style={estilo.detalhePedidoText}>R$ 0,00</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Valor Total:</Text>
+          <Text style={estilo.incluirPedidoText}>R$ 0,00</Text>
         </View>
 
-        <View style={estilo.detalhePedidoCard}>
-          <Text style={estilo.detalhePedidoInput}>Data Entrega:</Text>
-          <Text style={estilo.detalhePedidoText}>14/11/2018</Text>
+        <View style={estilo.incluirPedidoCard}>
+          <Text style={estilo.incluirPedidoInput}>Data Entrega:</Text>
+          <Text style={estilo.incluirPedidoText}>14/11/2018</Text>
         </View>
 
         <View style={estilo.iconPedido}>

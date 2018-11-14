@@ -7,7 +7,7 @@ import {
   TouchableOpacity
 } from "react-native";
 import { estilo } from "../pedidos/pedidos.css";
-import { Icon } from "react-native-elements";
+import { Icon, SearchBar } from "react-native-elements";
 
 export default class Pedidos extends Component {
   static navigationOptions = {
@@ -17,6 +17,14 @@ export default class Pedidos extends Component {
   render() {
     return (
       <View>
+        <SearchBar
+          lightTheme
+          clearIcon={{ color: "#2c3e50" }}
+          searchIcon={false} // You could have passed `null` too
+          // onChangeText={someMethod}
+          // onClear={someMethod}
+          placeholder="Pesquisa..."
+        />
         <TouchableOpacity
           onPress={() => this.props.navigation.navigate("PedidosInformacoes")}
         >
@@ -27,11 +35,11 @@ export default class Pedidos extends Component {
               <Text style={estilo.statusPedidos}>12/12/2012</Text>
               <View style={estilo.icon}>
                 <Icon
-                  name="add"
+                  name="info-outline"
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("DetalhePedido")
                   }
                 />
               </View>
@@ -50,11 +58,11 @@ export default class Pedidos extends Component {
               <Text style={estilo.statusPedidos}>28/10/2014</Text>
               <View style={estilo.icon}>
                 <Icon
-                  name="add"
+                  name="info-outline"
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("DetalhePedido")
                   }
                 />
               </View>
@@ -73,11 +81,11 @@ export default class Pedidos extends Component {
               <Text style={estilo.statusPedidos}>31/01/2015</Text>
               <View style={estilo.icon}>
                 <Icon
-                  name="add"
+                  name="info-outline"
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("DetalhePedido")
                   }
                 />
               </View>
@@ -96,11 +104,11 @@ export default class Pedidos extends Component {
               <Text style={estilo.statusPedidos}>01/05/2013</Text>
               <View style={estilo.icon}>
                 <Icon
-                  name="add"
+                  name="info-outline"
                   size={30}
                   color="#32CD32"
                   onPress={() =>
-                    this.props.navigation.navigate("ClientesAdicionarVenda")
+                    this.props.navigation.navigate("DetalhePedido")
                   }
                 />
               </View>

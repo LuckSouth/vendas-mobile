@@ -1,10 +1,10 @@
 export const estilo = {
-  incluirPedido: {
+  detalhePedido: {
     flex: 1,
     flexFlow: "column",
     backgroundColor: "white"
   },
-  incluirPedidoCard: {
+  detalhePedidoCard: {
     backgroundColor: "#FFF",
     borderWidth: 1,
     flexDirection: "row",
@@ -22,11 +22,11 @@ export const estilo = {
     backgroundColor: "transparent"
   },
 
-  incluirPedidoInput: {
+  detalhePedidoInput: {
     color: "#306B98",
     fontSize: 17
   },
-  incluirPedidoText: {
+  detalhePedidoText: {
     fontSize: 17,
     marginLeft: 7
   }

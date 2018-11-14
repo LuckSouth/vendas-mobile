@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Text, View, Image } from "react-native";
 import { estilo } from "../produtos/produtos.css";
+import { SearchBar } from "react-native-elements";
 
 export default class Produtos extends Component {
   static navigationOptions = {
@@ -18,12 +19,16 @@ export default class Produtos extends Component {
     } = estilo;
     return (
       <View>
+        <SearchBar
+          clearIcon={{ color: "white" }}
+          searchIcon={false} // You could have passed `null` too
+          // onChangeText={someMethod}
+          // onClear={someMethod}
+          placeholder="Pesquisa..."
+        />
         <View style={cardProdutos}>
           <View style={rodapeCardProdutos}>
-            <Image
-              style={imagem}
-              source={require("../../../imgs/can.png")}
-            />
+            <Image style={imagem} source={require("../../../imgs/can.png")} />
             <Text style={tituloCardProdutos}>057 - Cajuína 500 ml</Text>
           </View>
           <Text style={informacaoProdutos}>R$ 2,26 </Text>
