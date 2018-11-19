@@ -8,7 +8,7 @@ import {
   Button
 } from "react-native";
 import { estilo } from "./clientes.css";
-import { Icon } from "react-native-elements";
+import { Icon, SearchBar } from "react-native-elements";
 
 export default class Product extends Component {
   static navigationOptions = {
@@ -18,6 +18,14 @@ export default class Product extends Component {
   render() {
     return (
       <View>
+        <SearchBar
+          lightTheme
+          clearIcon={{ color: "#2c3e50" }}
+          searchIcon={false}
+          // onChangeText={someMethod}
+          // onClear={someMethod}
+          placeholder="Pesquisa..."
+        />
         <TouchableOpacity
           onPress={() => {
             this.props.navigation.navigate("DetalheCliente");

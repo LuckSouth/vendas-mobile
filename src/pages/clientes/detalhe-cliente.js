@@ -106,11 +106,10 @@ export default createBottomTabNavigator(
   {
     Informacoes: {
       screen: Informacoes,
-
       navigationOptions: {
         tabBarLabel: "Informações",
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="info-outline" size={30} color="#306B98" />
+          <Icon name="info-outline" size={30} color={tintColor} />
         )
       }
     },
@@ -119,7 +118,7 @@ export default createBottomTabNavigator(
       navigationOptions: {
         tabBarLabel: "Financeiro",
         tabBarIcon: ({ tintColor }) => (
-          <Icon name="attach-money" size={30} color="#306B98" />
+          <Icon name="attach-money" size={30} color={tintColor} />
         )
       }
     }

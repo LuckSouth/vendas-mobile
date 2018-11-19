@@ -20,13 +20,13 @@ export default class Pedidos extends Component {
         <SearchBar
           lightTheme
           clearIcon={{ color: "#2c3e50" }}
-          searchIcon={false} // You could have passed `null` too
+          searchIcon={false}  
           // onChangeText={someMethod}
           // onClear={someMethod}
           placeholder="Pesquisa..."
         />
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate("PedidosInformacoes")}
+          onPress={() => this.props.navigation.navigate("PedidosDetalhes")}
         >
           <View style={estilo.cardPedidos}>
             <Text style={estilo.tituloCard}>Edvaldo Viera da Silva</Text>
@@ -38,9 +38,7 @@ export default class Pedidos extends Component {
                   name="info-outline"
                   size={30}
                   color="#32CD32"
-                  onPress={() =>
-                    this.props.navigation.navigate("DetalhePedido")
-                  }
+                  onPress={() => this.props.navigation.navigate("Informacoes")}
                 />
               </View>
               <Text style={estilo.statusPedidos}>RECEBIDO</Text>
@@ -49,7 +47,7 @@ export default class Pedidos extends Component {
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate("PedidosInformacoes")}
+          onPress={() => this.props.navigation.navigate("PedidosDetalhes")}
         >
           <View style={estilo.cardPedidos}>
             <Text style={estilo.tituloCard}>Bruno Vitor Carvalho</Text>
@@ -72,7 +70,7 @@ export default class Pedidos extends Component {
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate("PedidosInformacoes")}
+          onPress={() => this.props.navigation.navigate("PedidosDetalhes")}
         >
           <View style={estilo.cardPedidos}>
             <Text style={estilo.tituloCard}>Noah Vitor Corte Real</Text>
@@ -95,7 +93,7 @@ export default class Pedidos extends Component {
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => this.props.navigation.navigate("PedidosInformacoes")}
+          onPress={() => this.props.navigation.navigate("PedidosDetalhes")}
         >
           <View style={estilo.cardPedidos}>
             <Text style={estilo.tituloCard}>Otávio Rodrigo Gonçalves</Text>

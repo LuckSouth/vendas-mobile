@@ -9,56 +9,56 @@ export default class Produtos extends Component {
   };
 
   render() {
-    const {
-      cardProdutos,
-      informacaoProdutos,
-      tituloCardProdutos,
-      rodapeCardProdutos,
-      imagem,
-      statusProdutos
-    } = estilo;
     return (
       <View>
         <SearchBar
-          clearIcon={{ color: "white" }}
-          searchIcon={false} // You could have passed `null` too
+          lightTheme
+          clearIcon={{ color: "#2c3e50" }}
+          searchIcon={false}
           // onChangeText={someMethod}
           // onClear={someMethod}
           placeholder="Pesquisa..."
         />
-        <View style={cardProdutos}>
-          <View style={rodapeCardProdutos}>
-            <Image style={imagem} source={require("../../../imgs/can.png")} />
-            <Text style={tituloCardProdutos}>057 - Cajuína 500 ml</Text>
+        <View style={estilo.cardProdutos}>
+          <View style={estilo.rodapeCardProdutos}>
+            <Image
+              style={estilo.imagem}
+              source={require("../../../imgs/can.png")}
+            />
+            <Text style={estilo.tituloCardProdutos}>
+              057 - CAJUÍNA GRANDE LATA DE 500 ML
+            </Text>
           </View>
-          <Text style={informacaoProdutos}>R$ 2,26 </Text>
-          <Text style={statusProdutos}>500 ml</Text>
+          <Text style={estilo.informacaoProdutos}>R$ 2,26 </Text>
+          <Text style={estilo.statusProdutos}>500 ml</Text>
         </View>
 
-        <View style={cardProdutos}>
-          <View style={rodapeCardProdutos}>
+        <View style={estilo.cardProdutos}>
+          <View style={estilo.rodapeCardProdutos}>
             <Image
-              style={imagem}
+              style={estilo.imagem}
               source={require("../../../imgs/chicken.png")}
             />
-            <Text style={tituloCardProdutos}>385 - Frango</Text>
+            <Text style={estilo.tituloCardProdutos}>
+              385 - ASA DE FRANGO PEQUENA CONGELADA{" "}
+            </Text>
           </View>
-          <Text style={informacaoProdutos}>R$ 5,47 </Text>
-          <Text style={statusProdutos}>10 Kg</Text>
+          <Text style={estilo.informacaoProdutos}>R$ 5,47 </Text>
+          <Text style={estilo.statusProdutos}>10 Kg</Text>
         </View>
 
-        <View style={cardProdutos}>
-          <View style={rodapeCardProdutos}>
+        <View style={estilo.cardProdutos}>
+          <View style={estilo.rodapeCardProdutos}>
             <Image
-              style={imagem}
+              style={estilo.imagem}
               source={require("../../../imgs/egg-carton.png")}
             />
-            <Text style={tituloCardProdutos}>
+            <Text style={estilo.tituloCardProdutos}>
               011 - OVO SUPER EXTRA INDUSTRIAL C/30
             </Text>
           </View>
-          <Text style={informacaoProdutos}>R$ 10,26 </Text>
-          <Text style={statusProdutos}>0 BD</Text>
+          <Text style={estilo.informacaoProdutos}>R$ 10,26 </Text>
+          <Text style={estilo.statusProdutos}>0 BD</Text>
         </View>
       </View>
     );

@@ -5,7 +5,7 @@ import {
   StyleSheet,
   FlatList,
   TouchableOpacity,
-  Button
+  Image
 } from "react-native";
 import { estilo } from "./pesquisa.css";
 
@@ -16,43 +16,66 @@ export default class Pesquisa extends Component {
 
   render() {
     return (
-      <View style={estilo.pesquisa}>
-        <TouchableOpacity
-          onPress={() => {
-            this.props.navigation.navigate("SubPesquisa");
-          }}
-        >
-          <View style={estilo.cardPesquisa}>
-            <Text style={estilo.tituloPesquisa}>OVOS</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => {
-            this.props.navigation.navigate("SubPesquisa");
-          }}
-        >
-          <View style={estilo.cardPesquisa}>
-            <Text style={estilo.tituloPesquisa}>FRANGO</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => {
-            this.props.navigation.navigate("SubPesquisa");
-          }}
-        >
-          <View style={estilo.cardPesquisa}>
-            <Text style={estilo.tituloPesquisa}>QUEIJO</Text>
-          </View>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => {
-            this.props.navigation.navigate("SubPesquisa");
-          }}
-        >
-          <View style={estilo.cardPesquisa}>
-            <Text style={estilo.tituloPesquisa}>GALINHA</Text>
-          </View>
-        </TouchableOpacity>
+      <View style={estilo.page}>
+        <View style={estilo.geral}>
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("SubPesquisa");
+            }}
+          >
+            <View style={estilo.block}>
+              <Text style={estilo.texto}>Ovos</Text>
+              <Image
+                style={estilo.img}
+                source={require("../../../imgs/egg-white.png")}
+              />
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("SubPesquisa");
+            }}
+          >
+            <View style={estilo.block}>
+              <Text style={estilo.texto}>Galinha</Text>
+              <Image
+                style={estilo.img}
+                source={require("../../../imgs/chicken-white.png")}
+              />
+            </View>
+          </TouchableOpacity>
+        </View>
+
+        <View style={estilo.geral}>
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("SubPesquisa");
+            }}
+          >
+            <View style={estilo.block}>
+              <Text style={estilo.texto2}>Queijo</Text>
+              <Image
+                style={estilo.img}
+                source={require("../../../imgs/cheese-white.png")}
+              />
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            onPress={() => {
+              this.props.navigation.navigate("SubPesquisa");
+            }}
+          >
+            <View style={estilo.block}>
+              <Text style={estilo.texto3}>Cajuína</Text>
+              <Image
+                style={estilo.img}
+                source={require("../../../imgs/can-white.png")}
+              />
+            </View>
+          </TouchableOpacity>
+        </View>
       </View>
     );
   }

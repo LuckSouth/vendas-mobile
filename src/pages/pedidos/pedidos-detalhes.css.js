@@ -1,5 +1,18 @@
 export const estilo = {
+  detalhePedido: {
+    flex: 1,
+    flexFlow: "column",
+    backgroundColor: "white"
+  },
+  iconPedido: {
+    alignSelf: "center",
+    margin: 70,
+    height: 69,
+    width: 65,
+    backgroundColor: "transparent"
+  },
   cardProdutos: {
+    backgroundColor: "white",
     borderWidth: 1,
     borderColor: "#DDD",
     borderRadius: 5,
@@ -7,7 +20,6 @@ export const estilo = {
     margin: 3,
     height: 100
   },
-
   imagem: {
     height: 50,
     width: 50,
@@ -40,5 +52,23 @@ export const estilo = {
     justifyContent: "center",
     flexWrap: "wrap",
     flexDirection: "row"
+  },
+  detalhePedidoCard: {
+    backgroundColor: "#FFF",
+    borderWidth: 1,
+    borderColor: "#DDD",
+    borderRadius: 5,
+    padding: 5,
+    margin: 1,
+    height: 65
+  },
+  detalhePedidoInput: {
+    color: "#306B98",
+    fontSize: 17,
+    fontWeight: "bold"
+  },
+  detalhePedidoText: {
+    fontSize: 17,
+    marginTop: 4
   }
 };

@@ -6,18 +6,19 @@ export const estilo = {
   detalheClienteCard: {
     backgroundColor: "#FFF",
     borderWidth: 1,
-    flexDirection: "row",
     borderColor: "#DDD",
     borderRadius: 5,
     padding: 5,
-    margin: 1
+    margin: 1,
+    height: 65
   },
   detalheClienteInput: {
     color: "#306B98",
-    fontSize: 17
+    fontSize: 17,
+    fontWeight: "bold"
   },
   detalheClienteText: {
     fontSize: 17,
-    marginLeft: 7
+    marginTop: 4
   }
 };
